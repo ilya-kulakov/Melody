@@ -8,26 +8,25 @@
 }
 
 *{
-    box-sizing: border-box;
+box-sizing: border-box;
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto', sans-serif;
     
 }
 .header{
-
-    background-color: #635854;
+background-color: #635854;
 padding-top: 12px;
 padding-bottom: 12px;
 border-bottom: 4px solid #3596F5;
 }
 .navbar{
-    max-width: 1280px;
-    margin: auto;
-    display: flex; /*сделал блок гибким*/
-    justify-content: space-between;
-    align-items: center;
+max-width: 1280px;
+margin: auto;
+display: flex; /*сделал блок гибким*/
+justify-content: space-between;
+align-items: center;
 }
 .navbar-menu{
 margin: 0;/*отключил внешние отступы*/
@@ -37,61 +36,53 @@ display: flex;/*сделал блок гибким*/
 text-align: center;/*сделал все пункты по центру*/
 }
 .navbar-item{
-    margin-left: 40px; /*расставляем пункты меню через каждые 40 пикселей*/
-    margin-right: 40px;
+ margin-left: 40px; /*расставляем пункты меню через каждые 40 пикселей*/
+margin-right: 40px;
 }
 .navbar-link{
-    text-decoration: none; /*убираем подчеркивание у ссылок*/
-    color: #fff;
+text-decoration: none; /*убираем подчеркивание у ссылок*/
+color: #fff;
 }
 .navbar-contacts{
-    text-align: right;/*выравнивание текста по правому краю*/
+text-align: right;/*выравнивание текста по правому краю*/
 }
 .navbar-text{
-    display: block;/*элемент занимает всю строчку*/
+display: block;/*элемент занимает всю строчку*/
 color: #fff;
 margin-bottom: 4px;
 font-size: 14px;
 line-height: 16px;
 }
 .navbar-phone{
-    font-weight: 700;
+font-weight: 700;
 font-size: 17px;
 line-height: 20px;
 text-decoration: none;
 color: #fff;
 }
 .main{
-    max-width: 1280px;
-    margin: auto;
-    display: flex; /*сделал блок гибким*/
-    padding-top: 54px;
-    
+max-width: 1280px;
+margin: auto;
+display: flex; /*сделал блок гибким*/
+padding-top: 54px; 
 }
 .main-info{
-    flex-grow: 1;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-
-
+flex-grow: 1;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
 }
 .home-image path{
-
 opacity: 0;
 cursor: pointer;
 }
 .home-image path:hover {
-
-    opacity: 1;
-
+opacity: 1;
 }
 path.current-floor{
-
-    opacity: 1;
-
+opacity: 1;
 }
 .counter-group{
 display: flex;
@@ -100,41 +91,33 @@ align-items: center;
 }
 .counter-button{
 cursor: pointer;
-    background-color: #fff;
-    border: none;
-
+background-color: #fff;
+border: none;
 }
 .counter-arrow-down{
-
 transform: rotateX(180deg);
-
 }
 .main-title{
 margin: 0;
-   font-family: "Bebas Neue Cyrillic",sans-serif;
-   font-weight: normal;
-   font-size: 37px;
+font-family: "Bebas Neue Cyrillic",sans-serif;
+font-weight: normal;
+font-size: 37px;
 line-height: 44px;
 color: #635854;
-
 }
 .floor-counter{
-
-    color: #635854;
-    font-family: "Bebas Neue Cyrillic",sans-serif;
-    font-size: 124px;
-    margin-top: 10px;
-
+color: #635854;
+font-family: "Bebas Neue Cyrillic",sans-serif;
+font-size: 124px;
+margin-top: 10px;
 }
 .button-primary{
-
 background-color: #3596F5;
 border-radius: 6px;
 color: #fff;
 border: none;
 padding: 16px 36px;
 cursor: pointer;
-
 }
 .modal{
 position: fixed;/* фиксированная позиция для того чтобы перекрыть все остальное!!! */
@@ -151,10 +134,9 @@ transform: scale(0);
 transition: opacity 0.2s;
 }
 .is-open{
-    opacity: 1;
-    transform: scale(1);
+opacity: 1;
+transform: scale(1);
 }
-
 .modal-dialog{
 position: absolute;
 max-width: 1000px;
@@ -171,34 +153,27 @@ transition-delay: 0.2s;
 opacity: 1;
 transform: translateY(0);
 }
-
 .modal-image{
-
 background-color: #EBEBEB;
 width: 60%;
 text-align: center;/* весь текст выравниваем по центру */
 padding: 50px; /* по всем краям делаем одинаковый отступ */
-
 }
-
 .flats path{
-    opacity: 0;
-    cursor: pointer;
+ opacity: 0;
+cursor: pointer;
 }
 .flats path:hover {
-
-    opacity: 1;
-
+opacity: 1;
 }
 .modal-title{
-    font-family: "Bebas Neue Cyrillic",sans-serif;
- font-weight: normal;
+font-family: "Bebas Neue Cyrillic",sans-serif;
+font-weight: normal;
 font-size: 24px;
 line-height: 29px;
 margin-top: 0;
 margin-bottom: 25px;
 }
-
 .modal-info{
 width: 40%;
 padding: 50px 46px;
@@ -208,11 +183,9 @@ padding: 0;
 list-style: none;
 margin-top: 55px;
 }
-
 .flat-item{
-    margin-bottom: 10px;
+margin-bottom: 10px;
 }
-
 .flat-link{
 font-size: 16px;
 line-height: 19px;
@@ -220,23 +193,22 @@ color: #635854;
 text-decoration: none;
 }
 .flat-link:hover{
-
 color: #3596F5;
 text-decoration: underline;
 }
 .modal-alert{
-    font-style: italic;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
-    color: #635854;
-    margin-top: 56px;
+font-style: italic;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #635854;
+margin-top: 56px;
 }
 .modal-close-buttom{
-    position: absolute;
-    top: 38px;
-    right: 27px;
-    cursor: pointer;
-    border: none;
-    background-color: #fff;
+position: absolute;
+top: 38px;
+right: 27px;
+cursor: pointer;
+border: none;
+background-color: #fff;
 }
